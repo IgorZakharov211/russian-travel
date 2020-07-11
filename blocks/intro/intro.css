@@ -1,0 +1,19 @@
+.intro{
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1024px){
+  .intro{
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 976px){
+  .intro{
+    max-width: 100%;
+    align-items: center;
+  }
+}
