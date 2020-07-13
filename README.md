@@ -17,7 +17,7 @@
 ------
 
 
-* [russian-travel](https://igorzakharov211.github.io/russian-travel/)
+[**Ссылка на сайт**](https://igorzakharov211.github.io/russian-travel/)
 
 
 
