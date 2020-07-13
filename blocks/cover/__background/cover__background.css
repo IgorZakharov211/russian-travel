@@ -1,6 +1,8 @@
 .cover__background{
   width: 100%;
+  -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 1;
   grid-row: 1;
 }
 

@@ -4,6 +4,7 @@
   line-height: 38px;
   cursor: pointer;
   margin:0 18px 0 0;
+  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
 }
 
@@ -13,8 +14,10 @@
 }
 
 .header__lang-link:hover{
+  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
   opacity: 0.8;
+  -webkit-transition: opacity .3s ease-out;
   transition: opacity .3s ease-out;
 }
 

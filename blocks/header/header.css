@@ -1,21 +1,28 @@
 .header{
   width: calc(100% - 96px);
   padding-top: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 768px){
   .header{
-     width: calc(100% - 48px);
+    width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 425px){
   .header{
-     width: calc(100% - 32px);
-     padding-top: 16px;
+    width: calc(100% - 32px);
+    padding-top: 16px;
   }
 }
 

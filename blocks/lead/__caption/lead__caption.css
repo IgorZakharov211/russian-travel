@@ -5,6 +5,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin: 8px 0 0 0;
+  -ms-flex-item-align: start;
   align-self: flex-start;
   color: #ffffff;
 }

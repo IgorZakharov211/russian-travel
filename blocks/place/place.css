@@ -2,7 +2,9 @@
   width: 100%;
   display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0 40px;
 }
@@ -21,6 +23,7 @@
 
 @media screen and (max-width: 620px){
   .place{
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
