@@ -7,13 +7,18 @@
 
 @media screen and (max-width: 1024px){
   .intro{
-    max-width: 928px;
+    max-width: 690px;
   }
 }
 
-@media screen and (max-width: 976px){
+@media screen and (max-width: 768px){
   .intro{
-    max-width: 100%;
-    align-items: center;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 425px){
+  .intro{
+    width: calc(100% - 32px);
   }
 }

@@ -1,4 +1,21 @@
 .content__intro{
-  margin: 0 auto;
+  margin: 0 auto 92px auto;
 }
 
+@media screen and (max-width: 1024px){
+  .content__intro{
+    margin: 0 0 92px 48px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .content__intro{
+    margin: 0 auto 88px auto;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .content__intro{
+    margin: 0 auto 64px auto;
+  }
+}
