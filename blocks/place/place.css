@@ -3,6 +3,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
+  grid-template-rows: -webkit-max-content 1fr;
   grid-template-rows: max-content 1fr;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -24,7 +25,11 @@
 
 @media screen and (max-width: 680px){
   .place{
+    -ms-grid-rows: -webkit-max-content -webkit-max-content -webkit-max-content;
+    -ms-grid-rows: max-content max-content max-content;
+    grid-template-rows: -webkit-max-content -webkit-max-content -webkit-max-content;
     grid-template-rows: max-content max-content max-content;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 32px 0;
   }
