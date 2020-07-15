@@ -1,8 +1,9 @@
 .place__website{
-  margin-bottom: 48px;
+  margin: 0;
+  align-self: end;
 }
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 680px){
   .place__website{
     display: none;
   }

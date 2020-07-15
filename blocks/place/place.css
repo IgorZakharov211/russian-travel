@@ -3,28 +3,30 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: max-content 1fr;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 0 40px;
+  grid-auto-flow: column;
+  grid-gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px){
   .place{
-    grid-gap: 0 32px;
+    grid-gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px){
   .place{
-    grid-gap: 0 24px;
+    grid-gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 680px){
   .place{
-    -ms-grid-columns: 1fr;
+    grid-template-rows: max-content max-content max-content;
     grid-template-columns: 1fr;
+    grid-gap: 32px 0;
   }
 }
 

@@ -1,4 +1,15 @@
 .header__lang-links{
-  -ms-flex-item-align: end;
-   align-self: flex-end;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: -ms-grid;
+   display: grid;
+   -ms-grid-columns: 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   -ms-grid-rows: 1fr;
+   grid-template-rows: 1fr;
+   grid-gap: 0 18px;
+   -webkit-box-align: end;
+   -ms-flex-align: end;
+   align-items: end;
 }
